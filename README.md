@@ -4,7 +4,7 @@ This is a official implementation for our paper: "Sample Augmentation Coupled wi
 This repository provides the official implementation of a novel approach for Time-Series Land Cover Mapping (T-LCM). Traditional T-LCM methods are hindered by the massive cost of manually labeling samples for each image in a sequence.
 Our method dramatically reduces this burden by requiring only a single, small set of manually labeled samples for one reference image to generate accurate maps for an entire time series of remote sensing images.
 
-![The flowchart of the proposed approach for achieving T-LCM with SRSIs.](Figure1.pdf)
+![The flowchart of the proposed approach for achieving T-LCM with SRSIs.](https://github.com/ImgSciGroup/T-LCM/blob/main/Figures/Figure1.pdf)
 
 ## Requirements
 >python=3.7.10  
@@ -16,7 +16,7 @@ scikit-learn=0.24.1
 ## Dataset
 Six study sites in a global range, including Wuhan, China (S1), Shenzhen, China (S2), Melbourne, Australia (S3), Berlin, Germany (S4), Cairo, Egypt (S5), and San Francisco (S6),which are collected to verify the feasibility and robustness of the proposed approach.
 ![Six study sites are selected in a worldwide range to verify the performance of the proposed approach. The green points illustrate the
-location of the six study sites, and the table at the bottom of the figure summarizes the details of the referred SRSIs for the six study sites.](Figure2.pdf)
+location of the six study sites, and the table at the bottom of the figure summarizes the details of the referred SRSIs for the six study sites.](https://github.com/ImgSciGroup/T-LCM/blob/main/Figures/Figure2.pdf)
 The datasets for sites S1 to S5 are available at [TSSCD](https://github.com/CUG-BEODL/TSSCD), and the dataset for S6 can be downloaded from https://pan.baidu.com/s/1P_7yFr9UfoOY0dh-0ilwfg?pwd=tkij.
 
 ## Acknowledgement
